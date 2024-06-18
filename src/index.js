@@ -4,16 +4,16 @@ addEventListener("fetch", (event) => {
 });
 
 const routes = {
-  "docker.boown.com": "https://registry-1.docker.io",
-  "quay.boown.com": "https://quay.io",
-  "gcr.boown.com": "https://gcr.io",
-  "k8s-gcr.boown.com": "https://k8s.gcr.io",
-  "k8s.boown.com": "https://registry.k8s.io",
-  "ghcr.boown.com": "https://ghcr.io",
-  "cloudsmith.boown.com": "https://docker.cloudsmith.io",
-  "pypi.boown.com": "https://pypi.org",
-  "npmjs.boown.com": "https://registry.npmjs.org",
-  "cnpmjs.boown.com": "http://r.cnpmjs.org",
+  "docker.shouhu.com": "https://registry-1.docker.io",
+  "quay.shouhu.com": "https://quay.io",
+  "gcr.shouhu.com": "https://gcr.io",
+  "k8s-gcr.shouhu.com": "https://k8s.gcr.io",
+  "k8s.shouhu.com": "https://registry.k8s.io",
+  "ghcr.shouhu.com": "https://ghcr.io",
+  "cloudsmith.shouhu.com": "https://docker.cloudsmith.io",
+  "pypi.shouhu.com": "https://pypi.org",
+  "npmjs.shouhu.com": "https://registry.npmjs.org",
+  "cnpmjs.shouhu.com": "http://r.cnpmjs.org",
 };
 
 function routeByHosts(host) {
