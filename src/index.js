@@ -14,6 +14,7 @@ const routes = {
   "pypi.shouhu.icu": "https://pypi.org",
   "npmjs.shouhu.icu": "https://registry.npmjs.org",
   "cnpmjs.shouhu.icu": "http://r.cnpmjs.org",
+  "github.shouhu.icu": "https://github.com/",
 };
 
 function routeByHosts(host) {
